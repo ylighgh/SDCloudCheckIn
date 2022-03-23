@@ -7,18 +7,13 @@
 ---
 pip install -r requirements.txt
 
-wget -N http://npm.taobao.org/mirrors/chromedriver/对应的版本号/chromedriver_linux64.zip
+wget -N http://npm.taobao.org/mirrors/chromedriver/`yours_chrome_version`/chromedriver_linux64.zip
 
 unzip chromedriver_linux64.zip
 
 chmod +x chromedriver
 
-sudo mv -f chromedriver /usr/local/share/chromedriver
-
-sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
-
-sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedrive
-
+sudo mv chromedriver /usr/bin/chromedriver
 ---
 
 
