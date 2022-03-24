@@ -21,6 +21,8 @@ sudo mv chromedriver /usr/bin/chromedriver
 
 更改init包下的`UserNameList`和`PassWordList`的内容即可
 
+以及邮箱的部分信息（收发件人 邮箱授权码）
+
 ## 执行命令
 
 ---
