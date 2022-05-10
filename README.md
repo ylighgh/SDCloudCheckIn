@@ -8,7 +8,7 @@
 
 pip install -r requirements.txt
 
-wget -N http://npm.taobao.org/mirrors/chromedriver/`yours_chrome_version`/chromedriver_linux64.zip
+wget -N http://npm.taobao.org/mirrors/chromedriver/ `yours_chrome_version` /chromedriver_linux64.zip
 
 unzip chromedriver_linux64.zip
 
