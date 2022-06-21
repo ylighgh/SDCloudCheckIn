@@ -1,6 +1,7 @@
 # 66yun自动签到
 
 ## 环境准备
+test
 
 使用python+selenium模拟登陆进行每日签到获取流量(版本python3.8)
 
