@@ -1,4 +1,5 @@
 import time
+import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from init import *
@@ -27,9 +28,9 @@ else:
         driver.get(url)
 
 
-    for i in range(len(UserNameList)):
-        username = UserNameList[i]
-        password = PassWordList[i]
+    for value in UserList.keys():
+        username = value
+        password = UserList[value]
 
         # 获取用户名 密码 登陆按钮 签到按钮 组件
         element_username = driver.find_element(By.XPATH, '//*[@id="email"]')
@@ -57,5 +58,7 @@ else:
 
 # 关闭浏览器
 time.sleep(5)
-mailto(0)
+# mailto(0)
 driver.close()
+
+os.system("ps -ef |grep webdirver|grep -v webdriver|awk '{print $2}'|xargs kill -9 2>>/dev/null")
