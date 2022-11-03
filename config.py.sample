@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+
+UserList = {
+    'user1': 'user1passwd',
+    'user2':'user2passwd'
+}
+
+headers = {
+    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'}
+
+index_url = 'https://66yun105.xyz/auth/login'
+
+check_in_url = 'https://66yun105.xyz/user/checkin'

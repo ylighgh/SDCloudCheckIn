@@ -1,40 +1,29 @@
-# 66yun自动签到
+# 66云自动签到脚本
 
-## 环境准备
-test
+使用Python的requests库进行每日自动签到，白嫖流量
 
-使用python+selenium模拟登陆进行每日签到获取流量(版本python3.8)
+## 安装依赖
 
----
-
+```bash
 pip install -r requirements.txt
+```
 
-wget -N http://npm.taobao.org/mirrors/chromedriver/ `yours_chrome_version` /chromedriver_linux64.zip
+## 使用
 
-unzip chromedriver_linux64.zip
+```bash
+1. 重命名config.py文件
+mv config.py.sample config.py
 
-chmod +x chromedriver
+2. 修改配置文件中的用户信息
 
-sudo mv chromedriver /usr/bin/chromedriver
+3. 执行脚本
+python app.py
+```
 
----
+## 示例
 
-
-## 使用说明
-
-更改init包下的`UserNameList`和`PassWordList`的内容
-
-以及邮箱的部分信息（收发件人 邮箱授权码）
-
-## 执行命令
-
----
-
-python AutoCheakIn.py
-
----
-
-
-## 其他
-
-使用`Linux Crontab`进行任务自动化
+```
+python app.py
+2022-11-03 19:39:10 4003 [INFO] 用户aaa@qq.com签到成功！
+2022-11-03 19:39:13 4003 [INFO] 用户bbb@qq.com签到成功！
+```
