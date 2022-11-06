@@ -16,7 +16,7 @@ pip install -r requirements.txt
 1. 重命名config.py文件
 mv config.py.sample config.py
 
-2. 修改配置文件中的用户信息
+2. 修改`config.py`中的用户信息
 
 3. 执行脚本
 python app.py
