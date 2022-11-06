@@ -1,6 +1,8 @@
-# 66云自动签到脚本
+# SD Cloud自动签到脚本
 
-使用Python的requests库进行每日自动签到，白嫖流量
+原`66yun`机场
+
+使用Python的`requests`库进行每日自动签到，白嫖流量
 
 ## 安装依赖
 
