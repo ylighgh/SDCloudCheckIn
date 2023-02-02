@@ -2,6 +2,8 @@
 
 原`66yun`机场
 
+机场地址:https://shidongli143.xyz/
+
 使用Python的`requests`库进行每日自动签到，白嫖流量
 
 ## 安装依赖
