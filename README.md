@@ -2,7 +2,9 @@
 
 原`66yun`机场
 
-机场地址:https://shidongli143.xyz/
+机场地址:[https://shidongli148.xyz/](https://shidongli148.xyz/)
+
+注意： **机场地址会经常变动，如果签到失败，请修改config.py中的URL地址**
 
 使用Python的`requests`库进行每日自动签到，白嫖流量
 
